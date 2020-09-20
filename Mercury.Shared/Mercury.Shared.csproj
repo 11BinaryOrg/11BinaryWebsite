@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>11Binary.Mercury.Shared</PackageId>
+    <Authors>11Binary.Mercury.Shared</Authors>
+    <Company>11Binary.Mercury.Shared</Company>
+    <Product>11Binary.Mercury.Shared</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
 </Project>
