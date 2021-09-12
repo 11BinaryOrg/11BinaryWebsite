@@ -1,0 +1,218 @@
+﻿body {
+    background-color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    padding-top: 100px;
+}
+/*---Navbar--------------------------------------------------------------------------------------------------------------------------*/
+.navbar {
+    margin-bottom: 0px;
+}
+
+#navbar {
+    margin-top: 30px;    
+    font-size:medium;
+    font-weight:400;
+}
+
+.navbar .container {
+    margin: 0px;
+}
+
+.navbar-inverse {
+    background-color: black;
+    min-height: 100px;
+    padding-right: 20px;
+    border:none;
+}
+
+.navbar-toggle {
+    margin-top: 45px;
+}
+
+.navbar-header img {
+    width: 250px;
+    height: 125px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ff6a00;
+
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+}
+.SignIn {
+    width: 150px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+}
+
+/*Top Full Screen-------------------------------------------------------------------------------------------------------------------------*/
+.full-screen {
+    background-size: cover;
+    background-position: top;
+}
+
+.fixed-screen {
+    background-attachment:fixed;
+}
+.topImage {
+    position: relative;
+    height: 100%;
+}
+.topImage img {
+    position:absolute;
+    bottom:30%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.Title {
+    font-size: large;
+    font-weight:300;
+    letter-spacing: 0.1em;
+    color:white;
+    position: absolute;
+    bottom:45%;
+    left:50%;
+    transform:translate(-50%, 0%);
+    text-align:center;
+}
+.topIcon {
+    font-size: xx-large;
+    color:white;
+    position: absolute;
+    bottom:25px;
+    left:50%;
+    transform:translate(-50%, 0%)
+}
+.topIcon i{
+    padding: 0.7em;
+    text-align: center;
+    display: inline;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.topIcon a, a:focus, a:hover {
+    color: white;
+    text-decoration:none;
+    margin-bottom: -2px;
+}
+.topIcon a:hover {
+   color: rgba(255, 255, 255, 0.66);
+}
+/*section Rules------------------------------------------------------------------------------------------------------*/
+.sectionText {
+    font-size:x-large;
+    color:black;
+    text-align: center;
+    padding: 25px 25px;
+    margin: 5px 5px;
+    text-align:center;
+}
+.sectionText .col-sm-4 .glyphicon {
+    margin-top:50px;
+    color:#ff6a00;
+}
+#section2 {
+    font-size: xx-large;
+}
+.sectionText h1{
+    padding: 15px 15px 0px 15px;
+    color:#ff6a00;
+}
+.sectionText p{
+    margin-bottom: 100px;
+    display:block;
+    text-align:center;  
+}
+.sectionText img {
+    border: 1px solid black;
+    box-shadow: 6px 6px 14px #352f2f;
+    vertical-align:middle;
+    max-height:400px;
+    margin-top: 20px;
+}
+.sideImage {
+    max-height:400px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.sectionImage {
+    background-size: cover;
+    background-position: top;
+    background-repeat:no-repeat;
+    height: 550px;
+}
+.sectionColumn {
+    font-size: xx-large;
+    margin: 5px 5px;
+}
+/*.linkButton {
+    
+}*/
+.linkButton a {
+    margin: 50px auto;
+    padding: 10px 30px;
+    font-size:medium;
+    font-weight:400;
+    color: #ff6a00;
+    border: 1px solid #ff6a00;
+}
+.linkButton a:hover {
+    color: #fff;
+    background-color: #ff6a00;
+}
+/*Contact Form--------------------------------------------------------------------------------------------------------*/
+#contactHeader {
+    margin-bottom:35px;
+}
+.input-group {
+    margin-top: 20px;
+}
+.input-group input {
+    border-top-right-radius: 5px!important;
+    border-bottom-right-radius: 5px!important;
+    margin-top: 1px;
+ }
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {   
+  border-color: rgba(255, 106, 0, 0.75);
+  box-shadow: none;
+  outline: 0 none;
+}
+.sendButton {
+    margin: 25px auto;
+}
+.sendButton a {
+    padding: 10px 30px;
+    font-size:medium;
+    font-weight:400;
+    color: #ff6a00;
+    border: 1px solid #ff6a00;
+}
+.sendButton a:hover {
+    color: #fff;
+    background-color: #ff6a00;
+}
+/*Footer--------------------------------------------------------------------------------------------------------------*/
+#footer {
+    background-color:black;
+    color:#ff6a00;    
+}
+
+ #copyright {
+        font-size: medium;
+        font-weight: 400;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+
+

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/3b7d5fea-0aa5-4696-b23b-95cd095fccd7/resourceGroups/11BinaryWebApp-RG/providers/Microsoft.Resources/deployments/Microsoft.ContainerRegistry/operations/DD3A7D0D74981CA7",
+    "operationId": "DD3A7D0D74981CA7",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-09-12T12:15:02.6202814Z",
+      "duration": "PT2.2526704S",
+      "trackingId": "27b660cc-2f7f-4fdc-baa3-b7ad3d2e16e4",
+      "serviceRequestId": "16cdb225-597d-4128-b00e-6fc4854f6d3f",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3b7d5fea-0aa5-4696-b23b-95cd095fccd7/resourceGroups/11BinaryWebApp-RG/providers/Microsoft.ContainerRegistry/registries/11BinaryContainerRegistry",
+        "resourceType": "Microsoft.ContainerRegistry/registries",
+        "resourceName": "11BinaryContainerRegistry"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3b7d5fea-0aa5-4696-b23b-95cd095fccd7/resourceGroups/11BinaryWebApp-RG/providers/Microsoft.Resources/deployments/Microsoft.ContainerRegistry/operations/08585701579861368943",
+    "operationId": "08585701579861368943",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-09-12T12:15:02.6870381Z",
+      "duration": "PT2.3194271S",
+      "trackingId": "34ffbf75-0e1a-4693-91a4-e39298723348",
+      "statusCode": "OK"
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "id": "/subscriptions/3b7d5fea-0aa5-4696-b23b-95cd095fccd7/resourceGroups/11BinaryWebApp-RG/providers/Microsoft.Resources/deployments/Microsoft.ContainerRegistry",
+  "name": "Microsoft.ContainerRegistry",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/3b7d5fea-0aa5-4696-b23b-95cd095fccd7/resourcegroups/11BinaryWebApp-RG/providers/Microsoft.ContainerRegistry/registries/11BinaryContainerRegistry",
+    "marketplaceItemId": "Microsoft.ContainerRegistry"
+  },
+  "properties": {
+    "templateHash": "14928308406217203539",
+    "parameters": {
+      "registryName": {
+        "type": "String",
+        "value": "11BinaryContainerRegistry"
+      },
+      "registryLocation": {
+        "type": "String",
+        "value": "centralus"
+      },
+      "zoneRedundancy": {
+        "type": "String",
+        "value": "disabled"
+      },
+      "registrySku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "registryApiVersion": {
+        "type": "String",
+        "value": "2020-11-01-preview"
+      },
+      "tags": {
+        "type": "Object",
+        "value": {}
+      },
+      "publicNetworkAccess": {
+        "type": "String",
+        "value": "Enabled"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-09-12T12:15:02.7077204Z",
+    "duration": "PT3.3669915S",
+    "correlationId": "b5351694-7139-4887-a3d7-c93b1c369b02",
+    "providers": [
+      {
+        "namespace": "Microsoft.ContainerRegistry",
+        "resourceTypes": [
+          {
+            "resourceType": "registries",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/3b7d5fea-0aa5-4696-b23b-95cd095fccd7/resourceGroups/11BinaryWebApp-RG/providers/Microsoft.ContainerRegistry/registries/11BinaryContainerRegistry"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

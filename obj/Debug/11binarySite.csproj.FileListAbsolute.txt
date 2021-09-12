@@ -1,0 +1,7 @@
+C:\Users\JamesRooks\source\repos\11BinaryWebsite\bin\11binarySite.dll.config
+C:\Users\JamesRooks\source\repos\11BinaryWebsite\bin\11binarySite.dll
+C:\Users\JamesRooks\source\repos\11BinaryWebsite\bin\11binarySite.pdb
+C:\Users\JamesRooks\source\repos\11BinaryWebsite\obj\Debug\11binarySite.csproj.AssemblyReference.cache
+C:\Users\JamesRooks\source\repos\11BinaryWebsite\obj\Debug\11binarySite.csproj.CoreCompileInputs.cache
+C:\Users\JamesRooks\source\repos\11BinaryWebsite\obj\Debug\11binarySite.dll
+C:\Users\JamesRooks\source\repos\11BinaryWebsite\obj\Debug\11binarySite.pdb
